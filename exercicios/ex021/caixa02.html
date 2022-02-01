@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!--Cabeça são cinfigurações do seu site -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Grouping Tags Semanticas --> 
+    <title>Grouping Tags</title>
+    <!-- No nav Primeiro 1px deslocamento horizontal O segundo 1px deslocamento vertical  O terceiro 1px espalhamento cor é a sombra exemplo 1px 1px 1px black-->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: 2px 1px 14px 6px rgba(0, 0, 0, 0.185);
+
+        }
+        
+        nav {
+            background-color:rgb(99, 99, 99) ;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px;
+        }
+        nav > a {
+            text-decoration: none;
+
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow:4px 4px 9px 0px rgba(0, 0, 0, 0.315); 
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(104, 104, 104);
+
+        }
+        footer {
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin:10px;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+
+    </style>
+   
+</head>
+<body>
+    <!--Cabeçalho faz parte do conteudo dele  -->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <!--Conteudo Principal -->
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politicas Tecnologia </p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptates blanditiis mollitia facere quod unde repellendus ipsum id, sunt quos a fugit veniam explicabo quaerat omnis repellat natus odio minus!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <!--Roda pé do seu site-->
+    <footer>
+        <p>Desenvolvido pelo Maury Show</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
